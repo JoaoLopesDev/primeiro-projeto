@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* dark-jungle-green: #0d1b1eff; */
+/* cultured: #f2f4f3ff; */
+/* auburn: #9e2b25ff; */
+/* roman-silver: #84828fff; */
+/* sonic-silver: #757 */
+
+
+body {
+  background-color: #f2f4f3ff;
+  color: whitesmoke;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+header,
+main,
+footer {
+  padding: 16px;
+  color: black;
+  list-style: none;
+}
+header img {
+  width: 180px;
+}
+header li {
+  list-style: none;
+  display: inline;
+}
+
+header {
+  background-color: #9e2b25ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ 
+a {
+  text-decoration: none;
+  color: white;
+  margin: 8px;
+  border-radius: 2px;
+}
+a:hover {
+  color: #1c1c1c;
+}
+h1 {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+}
+h2 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+section {
+  /* top | right | botton | left */
+  /* margin: 48px 48px 48px 48px; */
+  /* aplica margen nos quatro lados */
+  /* margin: 48px; */
+  margin: 0 auto 48px;
+  max-width: 1000px;
+  border-radius: 5px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-text {
+  color: white;
+  background-color: #9e2b25ff;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 300px;
+}
+
+.box-image {
+  flex: 1 1 300px;
+}
+
+.box-image img {
+  display: block;
+  width: 100%;
+}
+
+.cta {
+  background-color: #9e2b25ff;
+  color: white;
+  text-decoration: none;
+  padding: 8px 24px;
+  margin-top: 24px;
+  display: inline-block;
+  border-radius: 40px;
+  transition: background-color 0.15s;
+}
+
+
+#box1 {
+  background-color: #9e2b25ff;
+  color: white;
+  padding: 8px 24px;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+}
+
+footer a {
+  color: #9e2b25ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #222222;
+}
+#consult {
+  color: black;
+  margin: 20px;
+  font-size: 16px;
+  font-weight: bolder;
+  display: flex;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main h1 {
+  text-align: center;
+}
+
+input,
+textarea {
+  font-weight: bold;
+}
+.palio {
+  min-width: 320px;
+  max-width: 500px;
+  margin: auto;
+  width: 100%;
+}
+.alin {
+  min-width: 320px;
+  max-width: 800px;
+  width: 100%;
+  margin: auto
+}
+.alin img {
+  align-content: center;
+  width: 100%;
+}
+.foot {
+  background-color: #9e2b25ff;
+  margin: auto;
+  border-radius: 20px;
+}
